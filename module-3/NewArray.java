@@ -9,13 +9,13 @@ import java.util.Random;
 public class NewArray {
     
     public static void main(String[] args) {
-        // Generate random values between 1 and 20
+        // generate values between 1 and 20
         ArrayList<Integer> originalList = generateRandomList(50, 1, 20);
         
         // Print original list
         System.out.println("Original List: " + originalList);
         
-        // Remove duplicates
+        // Remove dups
         ArrayList<Integer> uniqueList = removeDuplicates(originalList);
         
         System.out.println("List without duplicates: " + uniqueList);
@@ -34,7 +34,7 @@ public class NewArray {
         return list;
     }
 
-    // Static method to remove duplicates
+    // Static method to remove dups
     public static <E> ArrayList<E> removeDuplicates(ArrayList<E> list) {
         ArrayList<E> uniqueList = new ArrayList<>();
         
