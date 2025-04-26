@@ -1,0 +1,29 @@
+/* Lea Trueworthy
+April 24, 2025
+M7 Programming assignment
+Description: Write a CSS file that sets the fill and stroke colors for the circles and adds a dashed border for one of them. */
+
+.plaincircle {
+    -fx-fill: white;
+    -fx-stroke: black;
+}
+
+.circleborder {
+    -fx-stroke-width: 5;
+    -fx-stroke-dash-array: 12 2 4 2;
+}
+
+.border {
+    -fx-border-color: black;
+    -fx-border-width: 5;
+}
+
+#redcircle {
+    -fx-fill: red;
+    -fx-stroke: red;
+}
+
+#greencircle {
+    -fx-fill: green;
+    -fx-stroke: green;
+}
